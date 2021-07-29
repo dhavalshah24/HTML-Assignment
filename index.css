@@ -114,7 +114,9 @@ nav {
 .container {
   padding: 2px 16px;
 }
-
+#project_header {
+  margin-bottom: 50px;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -154,10 +156,11 @@ nav {
 .flip-card-front {
   background-color: #ffa770;
   color: black;
+  font-weight: 300;
 }
 
 .flip-card-back {
-  background-color: #f5f2c4;
+  background-color: #e6a87f;
   color: black;
   transform: rotateY(180deg);
 }
@@ -201,7 +204,7 @@ nav {
 footer {
   color: white;
   text-align: center;
-  background-color: rgb(48, 7, 48);
+  background-color: rgb(51, 5, 51);
   height: 200px;
 }
 
