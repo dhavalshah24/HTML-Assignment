@@ -201,6 +201,9 @@ nav {
   margin-top: 7%;
   border-radius: 5px;
 }
+.links img:hover {
+  transform: scale(1.2);
+}
 footer {
   color: white;
   text-align: center;
